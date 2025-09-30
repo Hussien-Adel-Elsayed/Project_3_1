@@ -184,7 +184,7 @@ void ShowAllClientsScreen()
 	cout << "\n_______________________________________________________";
 	cout << "_________________________________________\n" << endl;
 
-	cout << "| " << left << setw(15) << "Accout Number";
+	cout << "| " << left << setw(15) << "Account Number";
 	cout << "| " << left << setw(10) << "Pin Code";
 	cout << "| " << left << setw(40) << "Client Name";
 	cout << "| " << left << setw(12) << "Phone";
@@ -213,7 +213,7 @@ void ShowAllClientsScreen()
 void PrintClientCard(sClient Client)
 {
 	cout << "\nThe following are the client details:\n";
-	cout << "\nAccout Number  : " << Client.AccountNumber;
+	cout << "\nAccount Number  : " << Client.AccountNumber;
 	cout << "\nPin Code       : " << Client.PinCode;
 	cout << "\nName           : " << Client.Name;
 	cout << "\nPhone          : " << Client.Phone;
@@ -568,4 +568,5 @@ int main()
 	system("pause>nul");
 
 	return 0;
+
 }
